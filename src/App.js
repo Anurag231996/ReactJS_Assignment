@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import Card from './Card';
+import card from './card';
 
 
 function App(props) {
 
   return (
     <>
-    <h1>Total Price: {props.total}</h1>
+    <h1>Total Price: {props.price}</h1>
     </>
     
   );
